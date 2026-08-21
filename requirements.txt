@@ -1,0 +1,8 @@
+opencv-python
+numpy
+keras
+tensorflow
+PyOpenGL
+glfw
+boto3
+pytest

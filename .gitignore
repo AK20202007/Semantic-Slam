@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+mock_cloud_storage/
+.pytest_cache/
+venv/
+.venv/
+.DS_Store
