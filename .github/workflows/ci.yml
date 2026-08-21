@@ -24,7 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         # Install system dependencies for OpenCV and OpenGL
         sudo apt-get update
-        sudo apt-get install -y libgl1-mesa-glx xvfb libglfw3 libglfw3-dev
+        sudo apt-get install -y libgl1 libglib2.0-0 xvfb libglfw3 libglfw3-dev
         pip install -r requirements.txt
         
     - name: Run tests with pytest
